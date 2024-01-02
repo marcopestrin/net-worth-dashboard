@@ -1,0 +1,13 @@
+{
+  "name": "net-worth-dashboard",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Marco Pestrin",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "start": "node dist/startup.js",
+    "build": "tsc"
+  }
+}
