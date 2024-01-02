@@ -26,7 +26,8 @@ CREATE TABLE cells (
     year INTEGER NOT NULL,
     share_number INTEGER,
     share_value NUMERIC,
-    pmc NUMERIC NOT NULL
+    pmc NUMERIC NOT NULL,
+    UNIQUE (month, year, asset_id)
 );
 
 INSERT INTO Types (name) VALUES
