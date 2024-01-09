@@ -3,9 +3,9 @@
       "target": "es6",
       "module": "commonjs",
       "outDir": "./dist",
-      "rootDir": "./src",
+      "rootDir": "src",
       "strict": true
     },
-    "include": ["src/**/*.ts"],
+    "include": ["src/**/*.ts", "startup.ts"],
     "exclude": ["node_modules"]
-  }
+}

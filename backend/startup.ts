@@ -1,5 +1,5 @@
-import { addAsset } from './services/asset';
-import { addCell } from './services/cell';
+import { addAsset } from './src/services/asset';
+import { addCell } from './src/services/cell';
 addAsset({
     name: 'Vanguard FTSE All-World UCITS ETF (USD) Accumulating',
     ticker: 'VWCE',

@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node dist/startup.js",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": ""
   }
 }
